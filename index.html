@@ -4,44 +4,109 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style/style.css">  
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">  
   <title>Results summary component</title>
 
 </head>
 <body>
   <main>
-    <p>
-      Your Result      
-    </p>
-    <div>
-      <p>
-        76
+    <div class="result_div">
+      <p class="your_result">
+        Your Result      
       </p>
-      <p>
-        of 100
-      </p>
-    </div>  
-    <p>Great</p>
-    <p>
-      You scored higher than 65% of the people who have taken these tests.
-    </p>
+      <div class="percentage_div">
+        <p class="number_result">
+          76
+        </p>
+        <p class="of_100_result">
+          of 100
+        </p>
+      </div>  
+      <div class="text_result_div">
+        <p class="adjective_result">Great</p>
+        <p class="info_result">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+    </div>
   </main>
-  
-  Summary
+  <section>
+    <div class="summary_div">
+      <h2>
+        Summary
+      </h2>
 
-  Reaction
-  80 / 100
+      <div class="reaction_category">
+        <div class="category">
+          <div class="icon_and_category_title_div">
+            <img src="assets/images/icon-reaction.svg" alt="">
+            <h3 class="category_title">
+              Reaction
+            </h3>
+          </div>
+          <div class="score_div">
+            <p class="score">
+              <span>80</span> / 100          
+            </p>       
+          </div>
+        </div>
+      </div>
 
-  Memory
-  92 / 100
+      <div class="memory_category">
+        <div class="category">
+          <div class="icon_and_category_title_div">
+            <img src="assets/images/icon-memory.svg" alt="">
+            <h3 class="category_title">
+              Memory
+            </h3>
+          </div>
+          <div class="score_div">
+            <p class="score">
+              <span>92</span> / 100          
+            </p>       
+          </div>
+        </div>
+      </div>
+    
+      <div class="verbal_category">
+        <div class="category">
+          <div class="icon_and_category_title_div">
+            <img src="assets/images/icon-verbal.svg" alt="">
+            <h3 class="category_title">
+              Verbal
+            </h3>
+          </div>
+          <div class="score_div">
+            <p class="score">
+              <span>61</span> / 100          
+            </p>       
+          </div>
+        </div>
+      </div>
+    
+      <div class="visual_category">
+        <div class="category">
+          <div class="icon_and_category_title_div">
+            <img src="assets/images/icon-visual.svg" alt="">
+            <h3 class="category_title">
+              Visual
+            </h3>
+          </div>
+          <div class="score_div">
+            <p class="score">
+              <span>72</span> / 100          
+            </p>       
+          </div>
+        </div>
+      </div>
 
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
+    <button>Continue</button>
+         
+    </div>
+  </section>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
