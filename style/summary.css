@@ -1,0 +1,44 @@
+.summary_div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.category{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reaction_category{
+    background-color: hsl(0, 100%, 98%);   
+    margin: 0 2rem; 
+}
+
+.memory_category{
+    background-color: hsl(39, 100%, 97%);
+    margin: 0 2rem;
+}
+
+.verbal_category{
+    background-color: hsl(166, 100%, 97%);
+    margin: 0 2rem;
+}
+
+.visual_category{
+    background-color: hsl(234, 85%, 97%);
+    margin: 0 2rem;
+}
+
+.icon_and_category_title_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(0, 100%, 67%);
+}
+
+.score_div span{
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+}
