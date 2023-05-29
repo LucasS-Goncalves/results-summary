@@ -1,7 +1,21 @@
+main{
+    background-color: hsl(0, 0%, 100%);
+}
+
+#summary_section{
+    margin-bottom: 2rem;
+}
+
 .summary_div{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin: 0 2rem;
+}
+
+.summary_title{
+    color: hsl(224, 30%, 27%);
+    font-size: 1.2rem;
 }
 
 .category{
@@ -9,36 +23,109 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: .8rem;
+    
+}
+
+.category_title{
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 .reaction_category{
-    background-color: hsl(0, 100%, 98%);   
-    margin: 0 2rem; 
+    background-color: hsl(0, 100%, 98%); 
+    border-radius: 15px; 
+}
+
+.reaction_category h3 {
+    color: hsl(0, 100%, 67%);
 }
 
 .memory_category{
     background-color: hsl(39, 100%, 97%);
-    margin: 0 2rem;
+    border-radius: 15px; 
+}
+
+.memory_category h3 {
+    color: hsl(39, 100%, 56%);
 }
 
 .verbal_category{
     background-color: hsl(166, 100%, 97%);
-    margin: 0 2rem;
+    border-radius: 15px; 
+}
+
+.verbal_category h3 {
+    color: hsl(166, 100%, 37%);
 }
 
 .visual_category{
     background-color: hsl(234, 85%, 97%);
-    margin: 0 2rem;
+    border-radius: 15px; 
+}
+
+.visual_category h3 {
+    color: hsl(234, 85%, 45%);
 }
 
 .icon_and_category_title_div{
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: hsl(0, 100%, 67%);
+    gap: .5rem;
 }
 
-.score_div span{
+.score{
+    color: hsl(224, 30%, 70%);
+    font-size: 1rem;
+}
+
+.score span{
     color: hsl(224, 30%, 27%);
     font-weight: 800;
+    margin-right: .3rem;
+}
+
+.continue_link{
+    background: hsl(224, 30%, 27%);
+    padding: 1rem 2rem;
+    color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none; 
+}
+
+.continue_link:hover{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media(min-width: 1440px) {
+    main {
+        height: 100vh;
+        margin: 0 20rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #result_section {
+        width: 50%;
+        height: 70%;
+    }
+
+    #result_section:before{
+        border-radius: 10% 10% 10% 10%;
+        box-shadow: none;
+    }
+
+    #summary_section{
+        width: 50%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }   
 }

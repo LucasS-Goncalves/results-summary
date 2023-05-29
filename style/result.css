@@ -1,10 +1,10 @@
-main{
+#result_section{
     position: relative;
     width: 100%;
     margin-bottom: 2rem;
 }
 
-main:before{
+#result_section:before{
     content: '';
     position: absolute;
     top: 0;
@@ -13,10 +13,10 @@ main:before{
     height: 100%;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 0 0 10% 10%;
-    box-shadow: 0 10px 60px 0px hsl(252, 100%, 67%);
+    box-shadow: 0 10px 60px 0px hsl(252, 100%, 77%);
 }
 
-main div{
+#result_section div{
     position: relative;
     z-index: 1;
 }
