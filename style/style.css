@@ -194,7 +194,7 @@ body{
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 1024px) {
 
     body{
         display: flex;
