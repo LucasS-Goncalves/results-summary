@@ -7,7 +7,7 @@
 
 <h3>//PT-BR//</h3>
 
-<p>Esta é a minha solução para o desafio Workit landing page (Peguei esse desafio no site Frontend Mentor). O site é responsivo e possui 3 layouts diferentes de acordo com o tamanho da tela. Para fazer este site usei HTML e CSS.</p>
+<p>Esta é a minha solução para o desafio Results Summary (Peguei esse desafio no site Frontend Mentor). O site é responsivo e possui 2 layouts diferentes de acordo com o tamanho da tela. Para fazer este site usei HTML e CSS.</p>
 
 <p>Também postei esse projeto no meu LinkedIn: https://www.linkedin.com/in/lucas-gon%C3%A7alves-3a2662252/</p>
 
@@ -15,7 +15,7 @@
 
 ![mobileReady](https://github.com/LucasS-Goncalves/results-summary/assets/122225674/daa8256c-d00c-4916-b7cf-c0414c8b6c7b)
 
-<h3>Desktop layout (1000px)</h3>
+<h3>Desktop layout (1024px)</h3>
 
 ![desktopReady](https://github.com/LucasS-Goncalves/results-summary/assets/122225674/9b17c7b6-caa1-4179-86a5-1bcac763ae87)
 <br>
